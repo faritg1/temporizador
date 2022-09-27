@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://media.revistagq.com/photos/5ca5f1dd27f264a29c7c97ee/16:9/w_1280,c_limit/que_es_el_tourbillon_reloj_5335.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.con{
+    border: solid 1px black;
+    text-align: center;
+    margin-top: 50px;
+    width: 500px;
+    padding: 5px;
+    background-image: url(./reloj.jpg) ;
+    background-size: cover;
+}
+#seg{
+    height: 80px;
+    width: 80px;
+    border: solid 1px black;
+    margin-top: -15px;
+    background-color: wheat;
+}
+
+#iniciar{
+    display: flex;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    border: solid 1px black;
+    background-color: rgb(240, 166, 56, 0.61);
+    color: rgb(0, 0, 0);
+}
+#iniciar:hover{
+    background-color: rgba(119, 77, 0)
+}
+
+#relt{
+    width: 100px;
+    height: 100px;
+    border: solid 1px black;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: white;
+    background-color: wheat;
+}
+.letra{
+    font-weight: 900;
+    color: wheat
+}
+
